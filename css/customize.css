@@ -1,0 +1,370 @@
+/**
+* Customize CSS
+*
+* @author Ajay138
+* @version 1.0
+*
+* "You can add your own style below this comment".
+*/
+body{
+  background-color: #25274d;
+}
+
+* {
+  overscroll-behavior-y: none !important;
+}
+.logo-me {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-top: 15px;
+  font-size: clamp(2rem, 3vw, 1.5rem);
+}
+
+.bracket {
+  color: #fff;
+}
+
+.color-2-logo {
+  color: hsl(198, 63%, 49%);
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+/* this is for any mention of company name except title */
+.logo-me2 {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+  margin-top: 15px;
+  /* font-size: clamp(2rem, 3vw, 1.5rem); */
+}
+.color-2-logo2 {
+  color: #2e9cca;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.bg-dark {
+  background-color: #25274d !important;
+}
+
+.text-lg-left > p {
+  color: white !important;
+}
+
+.top-sep {
+  color: #2e9cca !important;
+}
+.top-sep::after {
+  background-color: #29648a !important;
+}
+
+.top-c-sep {
+  color: #2e9cca !important;
+}
+.top-c-sep::after {
+  background-color: #29648a !important;
+}
+
+.navigation-bar.sticky {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#25274d),
+    to(#276681)
+  );
+  background-image: linear-gradient(
+    to right,
+    rgb(36, 38, 76) 10%,
+    #464980 100%
+  );
+}
+
+.section-hero {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#25274d),
+    to(#2e9cca)
+  );
+  background-image: linear-gradient(to right, #25274d 0%, #2e9cca 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-gradi {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#25274d),
+    to(#2e9cca)
+  ) !important;
+  background-image: linear-gradient(
+    to right,
+    #25274d 0%,
+    #2e9cca 100%
+  ) !important;
+}
+
+.bg-gradi2 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#25274d),
+    to(#464980)
+  ) !important;
+  background: radial-gradient(to bottom, #25274d 0%, #2e9cca 100%) !important;
+}
+
+/* .banner{
+    background-color:#25274D !important;
+} */
+
+.section-title > p {
+  color: white;
+}
+
+.btm-sep::after {
+  background-color: #29648a !important;
+}
+
+.contactT {
+  color: #2e9cca;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.service-box {
+  background: #d4e5f1;
+}
+
+.service-box > p {
+  color: black;
+}
+
+.counter-box {
+  background: #d4e5f1;
+}
+
+.dropdown {
+  background-color: black;
+}
+
+.mycaro {
+  height: 600px;
+  padding: 15px;
+  padding-top: 90px;
+}
+
+.carousel {
+  margin-top: -40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.test-item {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  /* background: green; */
+  padding: 30px 30px;
+}
+
+.test-item > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 70px;
+  margin-bottom: 20px;
+}
+.test-item > p {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #fff;
+}
+.test-item > h5 {
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.test-item > h6 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.curved-img {
+  border-radius: 40px;
+  width: auto !important;
+  margin-right: 20px !important;
+  /* border: 1px solid black; */
+}
+
+.pad {
+  margin-top: 130px;
+  padding-bottom: 0;
+}
+
+/* about page custom css */
+
+.breadcrumb-section {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#25274d),
+    to(#464980)
+  );
+  background-image: linear-gradient(to right, #25274d 0%, #464980 100%);
+  padding: 100px 0 50px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.subtitle-left::before {
+  background-color: #29648a !important;
+}
+.subtitle-left {
+  color: #29648a !important;
+}
+
+.mb-30 {
+  color: #fff;
+}
+
+.list-one > li {
+  color: #fff;
+}
+
+.list-one li:before {
+  color: #29648a !important;
+}
+
+.title-right:after {
+  background-color: #29648a !important;
+}
+.title-right {
+  color: #2e9cca !important;
+}
+
+/* client slider stuff */
+
+.client-slider .item {
+  background-color: #464980;
+}
+
+.client-slider .item > img {
+  opacity: 40%;
+}
+
+.clients {
+  margin-top: 50px;
+}
+
+.card-header .mb-0 > button {
+  color: #464980;
+  border-radius: 25px;
+  background-color: #d4e5f1;
+}
+
+.card-body {
+  color: #000;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #d4e5f1;
+}
+
+.card {
+  border-radius: 100px;
+  background-color: #d4e5f1;
+}
+.card-header {
+  border-radius: 25px;
+}
+
+.cta-section {
+  background-color: black !important;
+  padding: 40px;
+  background-image: url("../img/video/videoposter.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-logo { 
+  border-radius: 25px;
+}
+
+.form-control {
+  background-color: #d4e5f1;
+}
+
+.zmdi {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.proj-img{
+  height: 500;
+  width: 359;
+}
+
+.proj-link:hover{
+  color: black;
+
+}
+
+.project h5{
+  text-align: center;
+}
+
+.project p {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+
+.project:hover p {
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.proj-img img{ 
+  width: 700px !important;
+}
+
+.cta-box p{
+  color: black;
+}
+
+@media (max-width: 380px) {
+  #contact-logo {
+    display: none;
+  }
+  
+}
