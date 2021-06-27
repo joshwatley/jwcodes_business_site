@@ -6,7 +6,7 @@
 *
 * "You can add your own style below this comment".
 */
-body{
+body {
   background-color: #25274d;
 }
 
@@ -307,7 +307,7 @@ body{
   background-repeat: no-repeat;
 }
 
-.contact-logo { 
+.contact-logo {
   border-radius: 25px;
 }
 
@@ -320,17 +320,16 @@ body{
   border-bottom-right-radius: 0 !important;
 }
 
-.proj-img{
+.proj-img {
   height: 500;
   width: 359;
 }
 
-.proj-link:hover{
+.proj-link:hover {
   color: black;
-
 }
 
-.project h5{
+.project h5 {
   text-align: center;
 }
 
@@ -354,11 +353,11 @@ body{
   transform: scale(1);
 }
 
-.proj-img img{ 
+.proj-img img {
   width: 700px !important;
 }
 
-.cta-box p{
+.cta-box p {
   color: black;
 }
 
@@ -366,5 +365,142 @@ body{
   #contact-logo {
     display: none;
   }
-  
+}
+
+#newsletter-popup {
+  padding: 30px 40px 10px;
+  background: linear-gradient(rgba(4, 2, 26, 0.5), rgba(6, 6, 31, 0.5)),
+    url("../img/misc/emailbackground.jpg");
+  background-size: cover;
+  width: 45%;
+  text-align: left;
+  position: absolute;
+  z-index: 999999 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease-in-out;
+}
+#newsletter-popup::before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+#newsletter-popup::before {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1366px) {
+  #newsletter-popup {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #newsletter-popup {
+    width: 90%;
+  }
+}
+
+.newsletter-overlay {
+  z-index: 999999 !important;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  display: none;
+}
+
+#newsletter-popup h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 10px;
+}
+#newsletter-popup img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+#newsletter-popup .info {
+  color: white;
+  font-size: 19px;
+  text-align: center !important;
+}
+
+#newsletter-popup .spam {
+  color: white;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+}
+#newsletter-popup .powered {
+  color: rgb(124, 124, 124);
+  font-size: 13px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+#newsletter-popup label {
+  color: white;
+  font-size: 12px;
+  margin-bottom: -20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#newsletter-popup input[type="text"] {
+  width: 100%;
+  height: 40px;
+  text-indent: 10px;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+#newsletter-popup input[type="submit"] {
+  background: #2e9cca;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 3px solid #206c8d;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  line-height: 1.5;
+  width: 90%;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 21px;
+}
+
+#newsletter-popup .popup-close {
+  color: white;
+  /* background-color: #c4c4c4; */
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.newsletter-cont {
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center;
 }

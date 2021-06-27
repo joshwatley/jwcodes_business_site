@@ -18,12 +18,12 @@
 
   /* (1) Pre Loader
    ========================================================================== */
-  var preloader = $('#preloader');
-  if (preloader.length > 0) {
-    $(window).on("load", function () {
-      preloader.fadeOut("slow");
-    });
-  }
+  // var preloader = $('#preloader');
+  // if (preloader.length > 0) {
+  //   $(window).on("load", function () {
+  //     preloader.fadeOut("slow");
+  //   });
+  // }
 
   /*(2) Collapse Navbar on Scroll
    ========================================================================== */

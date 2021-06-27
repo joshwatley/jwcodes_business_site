@@ -3,7 +3,8 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="utf-8">    
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -54,7 +55,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <!-- START Loader -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div class="blobs">
             <div class="blob-center"></div>
             <div class="blob"></div>
@@ -64,8 +65,9 @@
             <div class="blob"></div>
             <div class="blob"></div>
         </div>
-    </div>
+    </div> -->
     <!-- END Loader -->
+    
 
     <!-- START Header -->
     <header class="header position-relative">
@@ -112,6 +114,40 @@
     </header>
     <!-- END Header -->
 
+    <!-- START POPUP EMAIL -->
+
+    <div  class="newsletter-overlay">
+        <div id="newsletter-popup">
+          <a href="#" class="popup-close"><i class="zmdi zmdi-close zmdi-hc-fw"></i></a>
+
+          <div class="newsletter-in">
+
+            <h1 class="logo-me"><span class="bracket">[</span>JW.<span class="color-2-logo">codes</span><span class="bracket">]</span></h1>
+            <div class="newsletter-cont">
+                <p class="info">GET 10% OFF YOUR FIRST QUOTE WITH US.</p>
+            </div>
+
+            <form name="emaillist" data-netlify="true" target="_blank" class="validate" method="post" action="">
+              <div class="frm-row">
+                  <label>FIRST NAME</label>
+                <input class="frm-name" type="text" name="FNAME" required="">
+              </div>
+              <div class="frm-row">
+                <label>EMAIL</label>
+                <input class="frm-email" type="text" name="EMAIL" required="">             </div>
+              <div class="frm-submit">
+                <input name="subscribe" type="submit" value="Join Now!">
+              </div>
+              <p class="spam">Zero spam. Unsubscribe at any time. <br/>We will only send you deals and discounts we know you will love!</p>
+              <!-- <p class="powered">Powered by <a href="https://joshwatley.netlify.app" target="_blank">Josh Watley</a></p> -->
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <!-- END POPUP EMAIL -->
+
     <!-- START Section Hero -->
     <section class="section-hero" id="home">
         <video class="video" autoplay muted loop poster = "img/video/videoposter.png" height="100%">
@@ -124,7 +160,7 @@
                     <div class="col-lg-6 col-12 text-lg-left text-center" data-wow-delay="0.2s">
                         <div class="banner-text">
                             <h1 class="c-white mb-3 mb-md-4">We design websites and apps that help businesses grow.</h1>
-                            <p class="c-white"><span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> is a small web development service located in South London. <br /><br /> We have a team of enthusiatic designers, developers and marketers all combining knowlege and experitise to create exceptional designs and features tailored to your business's needs.</p>
+                            <p class="c-white"><span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> is a small web development studio located in South London. <br /><br /> We have a team of enthusiatic designers, developers and marketers all combining knowlege and experitise to create exceptional designs and features tailored to your small business's needs.</p>
                             <a href="#about" class="btn btn-lg btn-custom btn-light mt-4">Learn more</a>
                         </div>
                     </div>
@@ -163,7 +199,7 @@
                     <div class="title-left">
                         <h3 class="top-sep">Why choose us?</h3>
                     </div>
-                    <p>At <span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> we know websites and apps can be expensive to develop with some agencies charging over £10,000 a project. We don't believe it has to cost this much to have your own high quality site. </p><p><span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> has worked through processes and workflows that help to remove any redundancies and ensures a super affordable website or application for everyone.</p>
+                    <p>At <span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> we know websites can be expensive to develop with some agencies quoting over £10,000 a project. We don't believe it has to cost this much to have your own high quality site. </p><p><span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> has worked through processes and workflows that help to remove any redundancies and ensures a super affordable website or application for everyone.</p>
                     <p>We pride ourselves on our relationship management and our testimonials and current network of clients are our esteemed asset. </p>
                     <!-- <p>At <span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> we relish opportunities to help individuals grow and refine their online digial presence to aid the growth of their business.</p><p><span class="logo-me2">JW.<span class="color-2-logo2">codes</span></span> has worked towards processes and workflows that help to remove any redundancies and ensures a pleasurable experience for all parties.</p>
                     <p>We pride ourselves on our relationship management and our testimonials and current network of clients are our esteemed asset. </p> -->
@@ -212,7 +248,7 @@
                 <div class="col-12">
                     <div class="section-title title-left text-center text-lg-left">
                         <h3 class="top-sep">Our services</h3>
-                        <p>We provide a number of digital services, however we don't believe any task is too big or small for us, so get in contact with anything you need doing and we will get back with a quote. </p>
+                        <p>While we advertise a number of digital services, we don't believe any task is too big or small for us, so please get in contact if you have any additional tasks you are looking for a quote on.</p>
                     </div>
                 </div>
             </div>
@@ -222,8 +258,10 @@
                         <div class="icon-box">
                             <i class="flaticon-computer"></i>
                         </div>
-                        <h5 class="btm-sep">Front End Web Development and Design Services</h5>
-                        <p><span class="logo-me2" style="color: black;">JW.<span class="color-2-logo2">codes</span></span> aims to provide strong foundations that prove fruitful for extended periods of time.</p><p>Our design and development processes allow us to seamlesses move from requirements, to prototypes to deploying the site you need.</p>
+                        <h5 class="btm-sep">Mobile Responsive Web Design Services</h5>
+                        <!-- <p><span class="logo-me2" style="color: black;">JW.<span class="color-2-logo2">codes</span></span> aims to provide strong foundations that prove fruitful for extended periods of time.</p><p>Our design and development processes allow us to seamlesses move from requirements, to prototypes to deploying the site you need.</p> -->
+                        <p><span class="logo-me2" style="color: black;">JW.<span class="color-2-logo2">codes</span></span> aims to provide affordable industry standard web sites for all business sizes. </p>
+                        <p>Our design and development processes allow us to seamlessly go from what you think you want, to tangable prototypes to deploying the site you need in record time.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-12 mb-30">
@@ -232,7 +270,7 @@
                             <i class="flaticon-search-engine"></i>
                         </div>
                         <h5 class="btm-sep">Social Media Templating and Design</h5>
-                        <p>We offer social media templates for platforms such as instagram, as well as complete social media overhauls.</p>
+                        <p>We offer social media templates for platforms such as Instagram and Facebook, as well as complete social media overhauls.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-12 mb-30">
@@ -257,7 +295,7 @@
                 <div class="col-12">
                     <div class="section-title title-left text-center text-lg-left">
                         <h3 class="top-sep">Our Work</h3>
-                        <p>I've worked on many different projects and I'm proud of every single one. We don't have a speciality, we work with many different clients through different industries, we only promise 100% satisfaction.</p>
+                        <p>We've worked on many different projects and we're proud of every single one. We don't have a speciality, we work with many different clients through different industries, we only promise 100% satisfaction.</p>
                         <p>Here are some of our recent works.</p>
                     </div>
                 </div>
@@ -266,7 +304,7 @@
                 <div class="col-12">
                     <ul class="sorting mb-60">
                         <li class="btn btn-custom" data-id="*">
-                            <span>All</span>
+                            <span>Recent</span>
                         </li>
                     </ul>
                 </div>
@@ -343,7 +381,7 @@
                             <i class="zmdi zmdi-file-text zmdi-hc-fw"></i>
                         </div>
                         <div class="ml-5 ml-lg-0 pt-1 pt-lg-0">
-                            <h3 class="mb-2 count" data-count="13">0</h3>
+                            <h3 class="mb-2 count" data-count="23">0</h3>
                             <p class="c-black text-capitalize"> Projects done</p>
                         </div>
                     </div>
@@ -355,7 +393,7 @@
                             <i class="zmdi zmdi-accounts-alt zmdi-hc-fw"></i>
                         </div>
                         <div class="ml-5 ml-lg-0 pt-1 pt-lg-0">
-                            <h3 class="mb-2 count" data-count="10">0</h3>
+                            <h3 class="mb-2 count" data-count="15">0</h3>
                             <p class="c-black text-capitalize"> Amazing Clients</p>
                         </div>
                     </div>
@@ -430,7 +468,7 @@
     <section class="cta-section position-relative">
         <div class="container">
   <div class="cta-box wow fadeInUp" data-wow-delay="0.2s" style="background-color: #d4e5f1;">
-                <h3>Start growing with <span class="logo-me2" style="color: #101f41;">JW.<span class="color-2-logo2">codes</span></span> today!</h3>
+                <h3>Start growing your business with <span class="logo-me2" style="color: #101f41;">JW.<span class="color-2-logo2">codes</span></span> today!</h3>
                 <p class="mb-30 mx-auto" style="color: #000;">Get in contact with us for a free consultation meeting and quote. We will go over what you are looking for and what you can expect from us.
                 </p>
                 <a href="#" class="btn btn-lg btn-custom">Book a free consultation<i
@@ -482,7 +520,7 @@
                             </div>
                             <div id="collapse2" class="collapse" aria-labelledby="acc2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Initial consultation sessions are free. During the session we will discuss how to implment the project and any prerequisites there are. This is a no strings attached meeting, you are completely able to walk away at no cost.</p>
+                                    <p>Initial consultation sessions are free. During the session we will discuss how to implement the project and any prerequisites there are. This is a no strings attached meeting, you are completely able to walk away at no cost.</p>
                                 </div>
                             </div>
                         </div>
@@ -597,11 +635,11 @@
                         <div class="mb-30">
                             <h1 class="logo-me"><span class="bracket">[</span>JW.<span class="color-2-logo">codes</span><span class="bracket">]</span></h1>
                         </div>
-                        <p class="mb-30 c-white">We are a small web development service located in South London. <br /><br /> Follow us on social media to keep updated with new projects and other tips for those wanting to get into tech.</p>
+                        <p class="mb-30 c-white">We are a small web development studio located in South London. <br /><br /> Follow us on social media to keep updated with new projects and other tips for those wanting to get into tech.</p>
                         <div class="socials">
-                            <a href="#" class="zmdi zmdi-facebook"></a>
-                            <a href="https://www.twitter.com/jw_codes" class="zmdi zmdi-twitter"></a>
-                            <a href="https://www.instagram.com/jw.codes" class="zmdi zmdi-instagram"></a>
+                            <a href="https://www.facebook.com/JWcodes-104908198515912" target="_blank" class="zmdi zmdi-facebook"></a>
+                            <a href="https://www.twitter.com/jw_codes" target="_blank" class="zmdi zmdi-twitter"></a>
+                            <a href="https://www.instagram.com/jw.codes" target="_blank" class="zmdi zmdi-instagram"></a>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3 mb-30">
@@ -629,7 +667,7 @@
                             </li>
                             <li>
                                 <i class="zmdi zmdi-email"></i>
-                                Support@company.com
+                                contact@jwcodes.com
                             </li>
                             <li>
                                 <i class="zmdi zmdi-phone"></i>
@@ -640,7 +678,7 @@
                 </div>
             </div>
             <div class="copyright text-center c-white">
-                ©2021 - Designed By <a href="https://joshwatley.netlify.app">Josh Watley</a>. <span class="d-none d-md-inline-block"></span>
+                ©2021 - Designed By <a href="https://www.jwcodes.com">JW.codes</a>. <span class="d-none d-md-inline-block"></span>
             </div>
         </div>
     </footer>
@@ -664,6 +702,8 @@
 
     <script src="js/main.js"></script>
     <script src="js/customize.js"></script>
+    <script src="js/list-builder.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>

@@ -387,6 +387,7 @@
 }
 
 .navigation-bar.sticky {
+  z-index: 94;
   /* border-radius: 50px;
   margin-top: 5px;
   margin-left: 10px;
